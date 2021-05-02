@@ -1,0 +1,75 @@
+/************ Base styles ************/ 
+
+body {
+	font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+/** HEADER **/
+
+#header-nav{
+	border-radius: 0;
+	border: 0;
+  background-color: #F6B319; 
+}
+
+.navbar-brand {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #61122F;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+/** END HEADER **/
+
+
+/** BODY **/
+#main-content .row {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #D3D3D3;
+}
+
+.row h1 {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/** END BODY **/
