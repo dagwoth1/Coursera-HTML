@@ -45,6 +45,8 @@ h1 {
 }
 #nav-list a:hover {
   background: #E7E7E7;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -59,6 +61,7 @@ h1 {
 
 
 /** BODY **/
+
 #main-content .row {
   margin-top: 30px;
   margin-left: 5px;
